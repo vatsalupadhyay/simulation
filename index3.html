@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Change Algorithm Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Coin Change Algorithm Simulation</h1>
+    <div id="inputs">
+        <div class="input-block">
+            <input type="number" id="amount" name="amount" required spellcheck="false">
+            <span class="placeholder">Amount</span>
+        
+        </div>
+        <div class="input-block">
+            <input type="text" id="coins" name="coins" required spellcheck="false">
+            <span class="placeholder">Coin Denominations(Space Separated)</span>
+        </div>
+    </div>
+    <br>
+    <div id="output"></div>
+    <div id="explain"></div>
+    <div id="table-container"></div>
+    <div id="button-container">
+        <button id="btnDynamic">Show Dynamic</button>
+        <button id="btnGreedy">Show Greedy</button>
+        <div id="pause-play-buttons">
+            <button id="btnPause" style="display: none;">Pause</button>
+            <button id="btnPlay" style="display: none;">Play</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
